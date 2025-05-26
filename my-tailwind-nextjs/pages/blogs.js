@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" className="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,75 +56,75 @@
 
 		<!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
 	</head>
-	<body class="font-roboto leading-relaxed bg-primary text-black">
+	<body className="font-roboto leading-relaxed bg-primary text-black">
 		<main>
 			<!-- Navbar - Hendri -->
-			<header class="sticky top-0 z-50 w-full bg-primary shadow-md">
+			<header className="sticky top-0 z-50 w-full bg-primary shadow-md">
 				<div
-					class="container mx-auto px-4 flex items-center justify-between h-16"
+					className="container mx-auto px-4 flex items-center justify-between h-16"
 				>
-					<a href="" class="block">
+					<a href="" className="block">
 						<img
 							src="./assets/images/coffee-logo.svg"
 							alt="Logo brand"
-							class="w-[4.5rem] h-auto"
+							className="w-[4.5rem] h-auto"
 						/>
 					</a>
-					<nav class="hidden md:flex items-center gap-8">
+					<nav className="hidden md:flex items-center gap-8">
 						<a
 							href="index.html"
-							class="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
+							className="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
 							>Home</a
 						>
 						<a
 							href="about.html"
-							class="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
+							className="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
 							>About</a
 						>
 						<a
 							href="blogs.html"
-							class="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
+							className="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
 							>Blog</a
 						>
 						<a
 							href="menu.html"
-							class="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
+							className="text-lg font-medium text-white hover:text-secondary transition-all duration-300"
 							>Menu</a
 						>
 					</nav>
-					<div class="flex gap-4 items-center">
-						<div class="hamburger md:hidden cursor-pointer">
+					<div className="flex gap-4 items-center">
+						<div className="hamburger md:hidden cursor-pointer">
 							<span
-								class="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
+								className="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
 							></span>
 							<span
-								class="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
+								className="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
 							></span>
 							<span
-								class="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
+								className="bar block w-[25px] h-[3px] my-[5px] mx-auto bg-white transition-all duration-300"
 							></span>
 						</div>
 						<div
-							class="hamburger__menu fixed left-[-100%] top-16 flex-col bg-primary w-full text-center transition-all duration-300 shadow-lg py-8 z-[99]"
+							className="hamburger__menu fixed left-[-100%] top-16 flex-col bg-primary w-full text-center transition-all duration-300 shadow-lg py-8 z-[99]"
 						>
 							<a
 								href="index.html"
-								class="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
+								className="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
 								>Home</a
 							>
 							<a
 								href="about.html"
-								class="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
+								className="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
 								>About</a
 							>
 							<a
 								href="blogs.html"
-								class="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
+								className="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
 								>Blog</a
 							>
 							<a
 								href="menu.html"
-								class="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
+								className="block py-6 text-white text-xl hover:text-secondary transition-all duration-300"
 								>Menu</a
 							>
 						</div>
@@ -132,86 +132,86 @@
 				</div>
 			</header>
 
-			<section id="blogs" class="py-8 md:py-12 bg-white">
-				<div class="container mx-auto px-4">
-					<div class="flex flex-col items-center text-center mb-12">
-						<h2 class="text-3xl md:text-4xl font-bold mb-4 text-primary">
+			<section id="blogs" className="py-8 md:py-12 bg-white">
+				<div className="container mx-auto px-4">
+					<div className="flex flex-col items-center text-center mb-12">
+						<h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
 							Our Blog
 						</h2>
-						<p class="text-lg md:text-xl max-w-3xl">
+						<p className="text-lg md:text-xl max-w-3xl">
 							Discover the world of coffee through our expert insights, brewing
 							guides, and stories from our coffee community. Stay updated with
 							the latest trends and tips.
 						</p>
 					</div>
-					<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 						<div
-							class="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
+							className="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
 						>
 							<img
 								src="https://images.unsplash.com/photo-1511920170033-f8396924c348"
 								alt="Coffee Brewing"
-								class="w-full h-[200px] object-cover"
+								className="w-full h-[200px] object-cover"
 							/>
-							<div class="flex flex-col flex-grow p-6">
-								<h1 class="text-xl font-bold mb-2 text-white flex-grow">
+							<div className="flex flex-col flex-grow p-6">
+								<h1 className="text-xl font-bold mb-2 text-white flex-grow">
 									The Art of Coffee Brewing
 								</h1>
-								<p class="text-white mb-4 line-clamp-2">
+								<p className="text-white mb-4 line-clamp-2">
 									Discover the secrets to brewing the perfect cup of coffee at
 									home. From choosing beans to mastering techniques.
 								</p>
 								<button
 									onclick="window.location.href='detail.html'"
-									class="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
+									className="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
 								>
 									Read More
 								</button>
 							</div>
 						</div>
 						<div
-							class="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
+							className="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
 						>
 							<img
 								src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
 								alt="Coffee Types"
-								class="w-full h-[200px] object-cover"
+								className="w-full h-[200px] object-cover"
 							/>
-							<div class="flex flex-col flex-grow p-6">
-								<h3 class="text-xl font-bold mb-2 text-white flex-grow">
+							<div className="flex flex-col flex-grow p-6">
+								<h3 className="text-xl font-bold mb-2 text-white flex-grow">
 									Understanding Coffee Bean Origins
 								</h3>
-								<p class="text-white mb-4 line-clamp-2">
+								<p className="text-white mb-4 line-clamp-2">
 									Explore different coffee regions and how their unique climates
 									affect the taste of your favorite brew.
 								</p>
 								<button
 									onclick="window.location.href='detail.html'"
-									class="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
+									className="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
 								>
 									Read More
 								</button>
 							</div>
 						</div>
 						<div
-							class="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
+							className="flex flex-col rounded overflow-hidden bg-primary shadow-md h-full"
 						>
 							<img
 								src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735"
 								alt="Coffee Shop"
-								class="w-full h-[200px] object-cover"
+								className="w-full h-[200px] object-cover"
 							/>
-							<div class="flex flex-col flex-grow p-6">
-								<h3 class="text-xl font-bold mb-2 text-white flex-grow">
+							<div className="flex flex-col flex-grow p-6">
+								<h3 className="text-xl font-bold mb-2 text-white flex-grow">
 									Starting Your Own Coffee Shop
 								</h3>
-								<p class="text-white mb-4 line-clamp-2">
+								<p className="text-white mb-4 line-clamp-2">
 									Essential tips and insights for entrepreneurs looking to open
 									their own successful coffee business.
 								</p>
 								<button
 									onclick="window.location.href='detail.html'"
-									class="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
+									className="w-full py-3 px-4 bg-cream text-black font-medium rounded hover:bg-white transition-all duration-300"
 								>
 									Read More
 								</button>
@@ -222,17 +222,17 @@
 			</section>
 
 			<!-- Achievemnt -->
-			<section id="achivement" class="py-8 md:py-12 bg-white">
-				<div class="container mx-auto px-4 mb-6">
+			<section id="achivement" className="py-8 md:py-12 bg-white">
+				<div className="container mx-auto px-4 mb-6">
 					<h2
-						class="text-3xl md:text-4xl font-bold mb-12 text-primary text-center"
+						className="text-3xl md:text-4xl font-bold mb-12 text-primary text-center"
 					>
 						Achievement
 					</h2>
 					<div
-						class="flex flex-col md:flex-row justify-center items-center gap-8"
+						className="flex flex-col md:flex-row justify-center items-center gap-8"
 					>
-						<div class="w-1/2 text-justify">
+						<div className="w-1/2 text-justify">
 							Since its establishment, Cohee has grown into one of the most
 							popular cafés in the city. With its minimalist and cozy interior
 							concept, Cohee has successfully captured the attention of coffee
@@ -252,25 +252,25 @@
 						<img
 							src="./assets/images/a-1.jpg"
 							alt="Coffee Achievement"
-							class="w-1/2 h-1/2 object-cover transition-transform duration-300 group-hover:scale-105"
+							className="w-1/2 h-1/2 object-cover transition-transform duration-300 group-hover:scale-105"
 						/>
 					</div>
 				</div>
 			</section>
 
-			<section id="accordion" class="py-8 md:py-12 bg-white">
-				<div class="container mx-auto px-4 mb-6">
-					<div class="w-full mx-auto space-y-4">
+			<section id="accordion" className="py-8 md:py-12 bg-white">
+				<div className="container mx-auto px-4 mb-6">
+					<div className="w-full mx-auto space-y-4">
 						<!-- Accordion Item 1 -->
-						<div class="border border-gray-300 rounded-lg">
-							<input type="checkbox" id="accordion-1" class="peer hidden" />
+						<div className="border border-gray-300 rounded-lg">
+							<input type="checkbox" id="accordion-1" className="peer hidden" />
 							<label
 								for="accordion-1"
-								class="flex justify-between items-center p-4 cursor-pointer"
+								className="flex justify-between items-center p-4 cursor-pointer"
 							>
 								<span>Favorite Coffee</span>
 								<svg
-									class="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
+									className="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -284,24 +284,24 @@
 								</svg>
 							</label>
 							<div
-								class="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
+								className="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
 							>
-								<div class="p-4 text-gray-600">
+								<div className="p-4 text-gray-600">
 									Arabica Coffee, Capucino, Matcha Coffee
 								</div>
 							</div>
 						</div>
 
 						<!-- Accordion Item 2 -->
-						<div class="border border-gray-300 rounded-lg">
-							<input type="checkbox" id="accordion-2" class="peer hidden" />
+						<div className="border border-gray-300 rounded-lg">
+							<input type="checkbox" id="accordion-2" className="peer hidden" />
 							<label
 								for="accordion-2"
-								class="flex justify-between items-center p-4 cursor-pointer"
+								className="flex justify-between items-center p-4 cursor-pointer"
 							>
 								<span>Favoite Menu</span>
 								<svg
-									class="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
+									className="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -315,22 +315,22 @@
 								</svg>
 							</label>
 							<div
-								class="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
+								className="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
 							>
-								<div class="p-4 text-gray-600">Pizza, Roast Bread</div>
+								<div className="p-4 text-gray-600">Pizza, Roast Bread</div>
 							</div>
 						</div>
 
 						<!-- Accordion Item 3 -->
-						<div class="border border-gray-300 rounded-lg">
-							<input type="checkbox" id="accordion-3" class="peer hidden" />
+						<div className="border border-gray-300 rounded-lg">
+							<input type="checkbox" id="accordion-3" className="peer hidden" />
 							<label
 								for="accordion-3"
-								class="flex justify-between items-center p-4 cursor-pointer"
+								className="flex justify-between items-center p-4 cursor-pointer"
 							>
 								<span>Favorite Music</span>
 								<svg
-									class="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
+									className="w-5 h-5 transition-transform duration-300 peer-checked:rotate-180"
 									fill="none"
 									stroke="currentColor"
 									viewBox="0 0 24 24"
@@ -344,9 +344,9 @@
 								</svg>
 							</label>
 							<div
-								class="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
+								className="overflow-hidden transition-all max-h-0 peer-checked:max-h-96"
 							>
-								<div class="p-4 text-gray-600">Homonculus - Vaundy</div>
+								<div className="p-4 text-gray-600">Homonculus - Vaundy</div>
 							</div>
 						</div>
 					</div>
@@ -355,119 +355,119 @@
 
 			<!--Contact us dan chat popup-->
 			<section>
-				<div class="fixed bottom-4 right-2 z-50 ">
-				  <button class="bg-teal text-white font-bold uppercase text-base px-5 py-3 rounded shadow-md hover:bg-white hover:text-black transition-all duration-300" onclick="toggleChat()">
+				<div className="fixed bottom-4 right-2 z-50 ">
+				  <button className="bg-teal text-white font-bold uppercase text-base px-5 py-3 rounded shadow-md hover:bg-white hover:text-black transition-all duration-300" onclick="toggleChat()">
 					Contact Us
 					</button>
 				</div>
-				   <div id="chat-popup" class="fixed bottom-8 right-2 bg-white border border-gray-300 rounded-lg shadow-lg w-80 mb-10 hidden z-50">
-				       <div class="p-1">
-								<h2 class="mb-0 pb-0 text-lg font-bold text-center text-gray-800">Welcome to COHEE</h2>
-								<p class="mt-1 text-center text-gray-600">Ada yang bisa kami bantu?</p>
-									<div class="mt-4 mb-4 flex flex-col">
-											<form class="flex flex-col justify-center items-center " action="index.html" method="post">
-												<input type="text" id="your_name" Placeholder="Your name"class="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2">
-												<input type="email" id="your_email" Placeholder="you@gmail.com" class="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2">
-												<input id="messageInput" type="text" placeholder="Tulis pesanmu.." class="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2"></input>
-												<button id="sendButton" type="button" class=" bg-primary buttom-5 xt-black text-white h-8 px-4 py-0 hover:bg-white hover:text-black transition-all duration-300 ">Kirim</button>
+				   <div id="chat-popup" className="fixed bottom-8 right-2 bg-white border border-gray-300 rounded-lg shadow-lg w-80 mb-10 hidden z-50">
+				       <div className="p-1">
+								<h2 className="mb-0 pb-0 text-lg font-bold text-center text-gray-800">Welcome to COHEE</h2>
+								<p className="mt-1 text-center text-gray-600">Ada yang bisa kami bantu?</p>
+									<div className="mt-4 mb-4 flex flex-col">
+											<form className="flex flex-col justify-center items-center " action="index.html" method="post">
+												<input type="text" id="your_name" Placeholder="Your name"className="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2">
+												<input type="email" id="your_email" Placeholder="you@gmail.com" className="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2">
+												<input id="messageInput" type="text" placeholder="Tulis pesanmu.." className="text-black h-8 px-4 py-0 mr-2 ml-2 mb-2 mt-2"></input>
+												<button id="sendButton" type="button" className=" bg-primary buttom-5 xt-black text-white h-8 px-4 py-0 hover:bg-white hover:text-black transition-all duration-300 ">Kirim</button>
 												</form>
 									</div>
 				   			</div>
 			</section>
 
 			<!-- Footer -->
-			<footer class="py-16 pb-8 bg-primary text-white">
-				<div class="container mx-auto px-4 flex flex-col">
-					<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-						<div class="flex flex-col gap-4">
-							<a href="#" class="block">
+			<footer className="py-16 pb-8 bg-primary text-white">
+				<div className="container mx-auto px-4 flex flex-col">
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+						<div className="flex flex-col gap-4">
+							<a href="#" className="block">
 								<img
 									src="./assets/images/coffee-logo.svg"
 									alt="Cohee logo"
-									class="w-[4.5rem] mb-4"
+									className="w-[4.5rem] mb-4"
 								/>
 							</a>
-							<p class="mb-6 leading-relaxed">
+							<p className="mb-6 leading-relaxed">
 								Crafting exceptional coffee experiences since 2010. Join us in
 								our passion for quality beans, expert brewing, and creating a
 								warm, welcoming community space.
 							</p>
-							<div class="flex flex-col gap-3">
+							<div className="flex flex-col gap-3">
 								<a
 									href="#"
-									class="text-white hover:text-secondary transition-all duration-300"
+									className="text-white hover:text-secondary transition-all duration-300"
 									>123 Eco Street, Green City</a
 								>
 								<a
 									href="tel:+15555555555"
-									class="text-white hover:text-secondary transition-all duration-300"
+									className="text-white hover:text-secondary transition-all duration-300"
 									>+1 (555) 555-5555</a
 								>
 								<a
 									href="mailto:contact@comment.com"
-									class="text-white hover:text-secondary transition-all duration-300"
+									className="text-white hover:text-secondary transition-all duration-300"
 									>contact@comment.com</a
 								>
 							</div>
 						</div>
 						<div>
-							<h3 class="text-2xl mb-2">Quick Links</h3>
-							<ul class="flex flex-col">
-								<li class="my-2">
+							<h3 className="text-2xl mb-2">Quick Links</h3>
+							<ul className="flex flex-col">
+								<li className="my-2">
 									<a
 										href="index.html"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 										>Home</a
 									>
 								</li>
-								<li class="my-2">
+								<li className="my-2">
 									<a
 										href="about.html"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 										>About</a
 									>
 								</li>
-								<li class="my-2">
+								<li className="my-2">
 									<a
 										href="#"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 										>Blog</a
 									>
 								</li>
 							</ul>
 						</div>
 						<div>
-							<h3 class="text-2xl mb-2">Social Media</h3>
-							<ul class="flex flex-col">
-								<li class="my-2">
+							<h3 className="text-2xl mb-2">Social Media</h3>
+							<ul className="flex flex-col">
+								<li className="my-2">
 									<a
 										href="#"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 									>
-										<i class="fab fa-instagram"></i> Instagram
+										<i className="fab fa-instagram"></i> Instagram
 									</a>
 								</li>
-								<li class="my-2">
+								<li className="my-2">
 									<a
 										href="#"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 									>
-										<i class="fab fa-facebook"></i> Facebook
+										<i className="fab fa-facebook"></i> Facebook
 									</a>
 								</li>
-								<li class="my-2">
+								<li className="my-2">
 									<a
 										href="#"
-										class="text-white hover:text-secondary transition-all duration-300"
+										className="text-white hover:text-secondary transition-all duration-300"
 									>
-										<i class="fab fa-linkedin"></i> LinkedIn
+										<i className="fab fa-linkedin"></i> LinkedIn
 									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<hr class="my-6 border-none h-px bg-white/20" />
-					<div class="text-center text-sm opacity-80">
+					<hr className="my-6 border-none h-px bg-white/20" />
+					<div className="text-center text-sm opacity-80">
 						<p>Copyright &copy; 2025 Cohee. All rights reserved.</p>
 					</div>
 				</div>
@@ -482,7 +482,7 @@
 		<script>
         function toggleChat() {
             const chatPopup = document.getElementById('chat-popup');
-            chatPopup.classList.toggle('hidden');
+            chatPopup.classNameList.toggle('hidden');
         }
     </script>
 		<script>
