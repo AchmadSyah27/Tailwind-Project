@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+@tailwind utilities;
+
+@theme {
+      --color-primary: "#433738";
+      --color-secondary: "#c49b63";
+      --color-cream: "#dfcda9";
+      --color-white: "#f8f7f7",
+      --color-black: "#000";
+      --color-teal: "#3d8d7a";
+      --color-accent: "#ff6600";
+      --color-green: "#3D8D7A";
+    borderRadius: {
+      DEFAULT: "0.5rem",
+    },
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+      "big-shoulders": ['"Big Shoulders"', "sans-serif"],
+    },
+},
+
+.accordion__content {
+	transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+	max-height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.accordion__content.active {
+	max-height: 500px; /* Adjust as needed */
+	padding-top: 1.25rem; /* Corresponds to p-5 */
+	padding-bottom: 1.25rem; /* Corresponds to p-5 */
+}
+.accordion__header .icon.rotate-180 {
+	transform: rotate(180deg);
+}
+
+.hamburger .bar {
+	transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(1) {
+	transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+	transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger__menu {
+	transition: left 0.3s ease-in-out;
+}
+
+.hamburger__menu.active {
+	left: 0;
+}
