@@ -2,24 +2,6 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-@theme {
-      --color-primary: "#433738";
-      --color-secondary: "#c49b63";
-      --color-cream: "#dfcda9";
-      --color-white: "#f8f7f7",
-      --color-black: "#000";
-      --color-teal: "#3d8d7a";
-      --color-accent: "#ff6600";
-      --color-green: "#3D8D7A";
-    borderRadius: {
-      DEFAULT: "0.5rem",
-    },
-    fontFamily: {
-      roboto: ["Roboto", "sans-serif"],
-      "big-shoulders": ['"Big Shoulders"', "sans-serif"],
-    },
-},
-
 .accordion__content {
 	transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 	max-height: 0;
