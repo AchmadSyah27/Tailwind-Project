@@ -7,8 +7,10 @@ const Navbar = () => {
 			<div className="container mx-auto px-4 flex items-center justify-between h-16">
 				<Link href="/" className="block">
 					<Image
-						src="../images/coffee-logo.svg"
+						src="/images/coffee-logo.svg"
 						alt="Logo brand"
+						width={35}
+						height={35}
 						className="w-[4.5rem] h-auto"
 					/>
 				</Link>
@@ -75,3 +77,5 @@ const Navbar = () => {
 		</nav>
 	);
 };
+
+export default Navbar;
