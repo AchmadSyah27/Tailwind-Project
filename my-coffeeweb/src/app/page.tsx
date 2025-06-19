@@ -6,9 +6,10 @@ import Cta from "./components/CTA";
 import Aboutus from "./components/Aboutus";
 import Features from "./components/Features";
 import Testimoni from "./components/Testimoni";
-import Faq from "./components/Faq";
+// import Faq from "./components/Faq";
 import Advertisement from "./components/Advertisement";
 import Footer from "./components/Footer";
+import Contactus from "./components/Contactus";
 
 export default function Home() {
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 			<Testimoni/>
 			{/* <Faq /> */}
 			<Advertisement/>
+			<Contactus />
 			<Footer/>
 		</>
 	);
