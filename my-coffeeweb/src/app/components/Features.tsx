@@ -1,6 +1,7 @@
 export default function Features() {
     return(
-        	<section id="features" className="py-24 bg-white rounded-b-[4rem]">
+		<div className="bg-primary">
+			<section id="features" className="py-24 bg-white rounded-b-[4rem]">
 				<div className="container mx-auto px-4">
 					<h2 className="text-3xl text-primary text-center mb-8 font-bold">
 						Our Services
@@ -34,5 +35,6 @@ export default function Features() {
 					</div>
 				</div>
 			</section>
+		</div>
     );
 };

@@ -17,6 +17,9 @@ module.exports = {
 				accent: "#ff6600",
 				green: "#3D8D7A",
 			},
+			fontAlign: {
+				textAlign:["justify"],
+			},
 			fontFamily: {
 				roboto: ["Roboto", "sans-serif"],
 				"big-shoulders": ['"Big Shoulders"', "sans-serif"],
