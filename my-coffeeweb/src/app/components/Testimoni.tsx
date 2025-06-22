@@ -5,8 +5,46 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import StarRating from "./StarRating";
+import feather from "feather-icons";
+import { useEffect } from "react";
+import UserAvatar from "./UserAvatar";
+import { UserIcon } from "@heroicons/react/24/outline";
+
+const testimonials = [
+	{
+		name: "John Doe",
+		role: "Coffee Enthusiast",
+		rating: 5,
+		text: "Rasa kopinya enak sekali, saya selalu kembali untuk menikmatinya.",
+		image: "null",
+	},
+	{
+		name: "Tonny Stark",
+		role: "Regular Customer",
+		rating: 5,
+		text: "Tempat yang nyaman dan pelayanan yang ramah. Sangat recommended!",
+		image: null,
+	},
+	{
+		name: "Mark Geats",
+		role: "Coffee Blogger",
+		rating: 5,
+		text: "Menu kopinya bervariasi dan harga sangat terjangkau. Perfect!",
+		image: null,
+	},
+	{
+		name: "Itsuna Kei",
+		role: "Digital Nomad",
+		rating: 5,
+		text: "Suasana cafe yang cozy dan wifi kencang, cocok untuk kerja remote.",
+		image: null,
+	},
+];
 
 export default function Testimoni() {
+	// 	useEffect(() => {
+	// 		feather.replace();
+	// 	}, []);
 	return (
 		<section id="testimoni" className="bg-primary py-16">
 			<div className="container mx-auto px-4">
@@ -25,9 +63,9 @@ export default function Testimoni() {
 									"Rasa kopinya enak sekali, saya selalu kembali untuk
 									menikmatinya."
 								</p>
-								<div className="flex items-center gap-4">
+								<div className="flex items-center gap-4 mt-4">
 									<div className="w-[50px] h-[50px] bg-primary rounded-full flex items-center justify-center text-white">
-										<i data-feather="user"></i>
+										<UserIcon className="w-6 h-6 text-white-500" />
 									</div>
 									<div className="flex flex-col">
 										<h3 className="font-semibold text-lg text-black">
@@ -48,7 +86,7 @@ export default function Testimoni() {
 								</p>
 								<div className="flex items-center gap-4">
 									<div className="w-[50px] h-[50px] bg-primary rounded-full flex items-center justify-center text-white">
-										<i data-feather="user"></i>
+										<UserIcon className="w-6 h-6 text-white-500" />
 									</div>
 									<div className="flex flex-col">
 										<h3 className="font-semibold text-lg text-black">
@@ -69,7 +107,7 @@ export default function Testimoni() {
 								</p>
 								<div className="flex items-center gap-4">
 									<div className="w-[50px] h-[50px] bg-primary rounded-full flex items-center justify-center text-white">
-										<i data-feather="user"></i>
+										<UserIcon className="w-6 h-6 text-white-500" />
 									</div>
 									<div className="flex flex-col">
 										<h3 className="font-semibold text-lg text-black">
@@ -90,7 +128,7 @@ export default function Testimoni() {
 								</p>
 								<div className="flex items-center gap-4">
 									<div className="w-[50px] h-[50px] bg-primary rounded-full flex items-center justify-center text-white">
-										<i data-feather="user"></i>
+										<UserIcon className="w-6 h-6 text-white-500" />
 									</div>
 									<div className="flex flex-col">
 										<h3 className="font-semibold text-lg text-black">

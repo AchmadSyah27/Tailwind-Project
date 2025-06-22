@@ -95,7 +95,7 @@ function Faq() {
 						</AccordionItem>
 
 						<AccordionItem
-							value="item-5"
+							value="item-6"
 							className="w-full max-w-[800px] mx-auto space-y-4"
 						>
 							<div className="rounded overflow-hidden shadow-md border border-gray-200">
